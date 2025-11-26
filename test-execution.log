@@ -1,0 +1,14 @@
+[26/11/2025, 03:06:01] ✓ Test ejecutado exitosamente - Link "Cerrar Sesión" encontrado y visible
+[26/11/2025, 03:07:22] ✗ Error en el test: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('a:has-text("Serrar Sesión")')
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for locator('a:has-text("Serrar Sesión")')[22m
+
+[26/11/2025, 03:11:13] ✓ Test ejecutado exitosamente - Link "Cerrar Sesión" encontrado y visible
+[26/11/2025, 03:11:16] ✓ Test ejecutado exitosamente - Elemento #volver está visible y contiene "Cerrar Sesión"

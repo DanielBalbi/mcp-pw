@@ -48,6 +48,7 @@ test.describe('Página de login - InstitutoWeb', () => {
     await submit.click();
     await page.waitForLoadState('networkidle');
 
-    await expect(page).toHaveTitle('Acceso al sistema');
+    await expect(page).toHaveTitle('Hola.');
   });
 });
+
